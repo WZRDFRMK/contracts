@@ -1,0 +1,7 @@
+build
+composer.lock
+docs
+vendor
+.DS_Store
+composer.phar
+apigen.phar

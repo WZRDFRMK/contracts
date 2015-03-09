@@ -1,0 +1,38 @@
+{
+    "name": "wzrd/contracts",
+
+    "description": "The WZRD Contracts package.",
+
+    "keywords": [
+        "wzrd",
+        "contracts"
+    ],
+
+    "homepage": "https://github.com/WZRDFRMK/contracts",
+
+    "license": "CeCILL-B",
+
+    "authors": [
+        {
+            "role": "Developer",
+            "name": "Kevin DUBUC",
+            "email": "kevindubuc62@gmail.com",
+            "homepage": "http://kevindubuc.fr"
+        }
+    ],
+
+    "require": {
+        "php": "~5.4",
+        "psr/log": "~1.0"
+    },
+
+    "require-dev": {
+        "fabpot/php-cs-fixer": "~1.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Wzrd\\Contracts\\": "src/"
+        }
+    }
+}
