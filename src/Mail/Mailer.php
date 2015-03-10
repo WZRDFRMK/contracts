@@ -1,8 +1,8 @@
 <?php
 
-namespace Wzrd\Contracts\Mailer;
+namespace Wzrd\Contracts\Mail;
 
-interface MailerInterface
+interface Mailer
 {
     /**
 	 * Send a mail

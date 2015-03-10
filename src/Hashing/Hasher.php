@@ -1,8 +1,8 @@
 <?php
 
-namespace Wzrd\Contracts\Hasher;
+namespace Wzrd\Contracts\Hashing;
 
-interface HasherInterface
+interface Hasher
 {
 	/**
 	 * Hash the given value.

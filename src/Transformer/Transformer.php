@@ -2,7 +2,7 @@
 
 namespace Wzrd\Contracts\Transformer;
 
-interface TransformerInterface
+interface Transformer
 {
     /**
      * Transform a value with a transformer.

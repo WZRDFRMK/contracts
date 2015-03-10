@@ -1,8 +1,8 @@
 <?php
 
-namespace Wzrd\Contracts\Pusher;
+namespace Wzrd\Contracts\Push;
 
-interface PusherInterface
+interface Pusher
 {
     /**
 	 * Push message.

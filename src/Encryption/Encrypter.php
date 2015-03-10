@@ -1,8 +1,8 @@
 <?php
 
-namespace Wzrd\Contracts\Encrypter;
+namespace Wzrd\Contracts\Encryption;
 
-interface EncrypterInterface
+interface Encrypter
 {
     /**
 	 * Encrypt the given value.
