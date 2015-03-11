@@ -69,6 +69,21 @@ interface Message
 	public function getBcc();
 
 	/**
+	* Set the subject of the message.
+	*
+	* @param  string  $subject
+	* @return self
+	*/
+	public function setSubject($subject);
+
+	/**
+	* Get subject.
+	*
+	* @return string
+	*/
+	public function getSubject();
+
+	/**
 	 * Set the text of the message.
 	 *
 	 * @param  string  $text
