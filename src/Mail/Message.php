@@ -11,7 +11,14 @@ interface Message
 	 * @param  string  $name
 	 * @return self
 	 */
-	public function from($address, $name = null);
+	public function addFrom($address, $name = null);
+
+	/**
+	 * Get "from" addresses
+	 *
+	 * @return array
+	 */
+	public function getFrom();
 
 	/**
 	 * Add a recipient to the message.
@@ -20,7 +27,14 @@ interface Message
 	 * @param  string  $name
 	 * @return self
 	 */
-	public function to($address, $name = null);
+	public function addTo($address, $name = null);
+
+	/**
+	 * Get recipients addresses
+	 *
+	 * @return array
+	 */
+	public function getTo();
 
 	/**
 	 * Add a carbon copy to the message.
@@ -29,7 +43,14 @@ interface Message
 	 * @param  string  $name
 	 * @return self
 	 */
-	public function cc($address, $name = null);
+	public function addCc($address, $name = null);
+
+	/**
+	 * Get carbon copies addresses
+	 *
+	 * @return array
+	 */
+	public function getCc();
 
 	/**
 	 * Add a blind carbon copy to the message.
@@ -38,7 +59,14 @@ interface Message
 	 * @param  string  $name
 	 * @return self
 	 */
-	public function bcc($address, $name = null);
+	public function addBcc($address, $name = null);
+
+	/**
+	 * Get blind carbon copies addresses
+	 *
+	 * @return array
+	 */
+	public function getBcc();
 
 	/**
 	 * Set the text of the message.
@@ -46,7 +74,14 @@ interface Message
 	 * @param  string  $text
 	 * @return $this
 	 */
-	public function text($text);
+	public function setText($text);
+
+	/**
+	 * Get text
+	 *
+	 * @return string
+	 */
+	public function getText();
 
 	/**
 	 * Set the html of the message.
@@ -54,7 +89,14 @@ interface Message
 	 * @param  string  $html
 	 * @return $this
 	 */
-	public function html($html);
+	public function setHtml($html);
+
+	/**
+	 * Get HTML
+	 *
+	 * @return string
+	 */
+	public function getHtml();
 
 	/**
 	 * Attach a file to the message.
@@ -66,6 +108,13 @@ interface Message
 	public function attach($file, array $options = array());
 
 	/**
+	 * Get attachments
+	 *
+	 * @return array
+	 */
+	public function getAttachments();
+
+	/**
 	 * Attach a file to the message with inline disposition.
 	 *
 	 * @param  string  $file
@@ -73,4 +122,11 @@ interface Message
 	 * @return $this
 	 */
 	public function inline($file, array $options = array());
+
+	/**
+	 * Get inlines attachments
+	 *
+	 * @return array
+	 */
+	public function getInlines();
 }
