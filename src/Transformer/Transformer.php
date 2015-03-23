@@ -1,6 +1,6 @@
 <?php
 
-namespace Wzrd\Contracts\Transformer;
+namespace WZRD\Contracts\Transformer;
 
 interface Transformer
 {

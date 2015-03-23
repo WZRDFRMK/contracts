@@ -1,6 +1,6 @@
 <?php
 
-namespace Wzrd\Contracts\Encryption;
+namespace WZRD\Contracts\Encryption;
 
 interface Encrypter
 {

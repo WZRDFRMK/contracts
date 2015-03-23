@@ -1,6 +1,6 @@
 <?php
 
-namespace Wzrd\Contracts\Profiling;
+namespace WZRD\Contracts\Profiling;
 
 interface Profiler
 {

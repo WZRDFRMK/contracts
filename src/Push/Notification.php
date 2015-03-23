@@ -1,6 +1,6 @@
 <?php
 
-namespace Wzrd\Contracts\Push;
+namespace WZRD\Contracts\Push;
 
 interface Notification
 {

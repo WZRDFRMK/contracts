@@ -1,6 +1,6 @@
 <?php
 
-namespace Wzrd\Contracts\Mail;
+namespace WZRD\Contracts\Mail;
 
 interface Message
 {

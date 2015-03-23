@@ -1,6 +1,6 @@
 <?php
 
-namespace Wzrd\Contracts\Logging;
+namespace WZRD\Contracts\Logging;
 
 use Psr\Log\LoggerInterface as LoggerPsrInterface;
 

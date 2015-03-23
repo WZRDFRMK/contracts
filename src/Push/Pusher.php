@@ -1,13 +1,13 @@
 <?php
 
-namespace Wzrd\Contracts\Push;
+namespace WZRD\Contracts\Push;
 
 interface Pusher
 {
 	/**
      * Push message.
      *
-     * @param  Wzrd\Contracts\Push\Notification  $notification
+     * @param  WZRD\Contracts\Push\Notification  $notification
      * @param  array  $options
      */
     public function push(Notification $notification, array $options = array());

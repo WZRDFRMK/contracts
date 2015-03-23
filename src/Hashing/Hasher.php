@@ -1,6 +1,6 @@
 <?php
 
-namespace Wzrd\Contracts\Hashing;
+namespace WZRD\Contracts\Hashing;
 
 interface Hasher
 {
