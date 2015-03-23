@@ -1,8 +1,8 @@
 <?php
 
-namespace Wzrd\Contracts\Logging;
+namespace Wzrd\Contracts\Profiling;
 
-interface Measurer
+interface Profiler
 {
     /**
      * Increment a metric
