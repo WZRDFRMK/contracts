@@ -11,4 +11,11 @@ interface Pusher
      * @param array                            $options
      */
     public function push(Notification $notification, array $options = array());
+
+    /**
+     * Get supported platforms.
+     *
+     * @return array
+     */
+    public function getSupportedPlatforms();
 }
