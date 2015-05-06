@@ -45,7 +45,7 @@ interface Notification
      *
      * @return self
      */
-    public function addDevices($platform, array $devices, array $options = array());
+    public function addDevices($platform, array $devices, array $options = []);
 
     /**
      * Get devices tokens.

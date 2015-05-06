@@ -10,5 +10,5 @@ interface Mailer
      * @param WZRD\Contracts\Mail\Message $message
      * @param array                       $data
      */
-    public function send(Message $message, $options = array());
+    public function send(Message $message, $options = []);
 }

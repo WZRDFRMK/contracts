@@ -128,7 +128,7 @@ interface Message
      *
      * @return $this
      */
-    public function attach($file, array $options = array());
+    public function attach($file, array $options = []);
 
     /**
      * Get attachments.
@@ -145,7 +145,7 @@ interface Message
      *
      * @return $this
      */
-    public function inline($file, array $options = array());
+    public function inline($file, array $options = []);
 
     /**
      * Get inlines attachments.

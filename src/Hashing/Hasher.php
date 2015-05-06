@@ -12,7 +12,7 @@ interface Hasher
      *
      * @return string
      */
-    public function hash($value, array $options = array());
+    public function hash($value, array $options = []);
 
     /**
      * Check the given plain value against a hash.
@@ -23,5 +23,5 @@ interface Hasher
      *
      * @return bool
      */
-    public function verify($value, $hash, array $options = array());
+    public function verify($value, $hash, array $options = []);
 }

@@ -10,7 +10,7 @@ interface Pusher
      * @param WZRD\Contracts\Push\Notification $notification
      * @param array                            $options
      */
-    public function push(Notification $notification, array $options = array());
+    public function push(Notification $notification, array $options = []);
 
     /**
      * Get supported platforms.
