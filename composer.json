@@ -34,5 +34,10 @@
         "psr-4": {
             "WZRD\\Contracts\\": "src/"
         }
+    },
+
+    "scripts": {
+        "test": "phpunit",
+        "fix-cs": "php vendor/bin/php-cs-fixer fix src --level=symfony --fixers=align_double_arrow,align_equals,ordered_use,phpdoc_order,short_array_syntax"
     }
 }
